@@ -1,0 +1,248 @@
+<head>
+    <title>Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <section>
+        <h1>Najlepšia pizza</h1>
+
+
+
+        <img class="obrazok2" title="logo" src="/obrazky/logo-removebg-preview.png" alt="logo">
+
+        <nav><a href="#seciton1">Akcia</a> <a href="#section2">Napoje</a> <a href="#section3">Kontakty</a>
+            <a href="#section4"> Galeria</a>
+        </nav>
+    </section>
+
+
+
+    <style>
+        body {
+            background: #FCF0C8;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+        }
+
+        img {
+            border-radius: 2%;
+            height: 250;
+            width: 100%;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: none;
+        }
+
+        nav :hover {
+            background-color: #8f4045;
+            text-decoration: none;
+        }
+
+
+        .obrazok2 {
+            height: 100;
+            width: 100;
+            display: block;
+            margin: auto;
+        }
+
+        .obrazok3 {
+            height: 20;
+            width: 20;
+
+
+
+        }
+
+        h1 {
+            color: #FACE7F;
+            background-color: #911F27;
+            font-size: 350%;
+            animation: 3s infinite alternate;
+            text-align: center;
+        }
+
+
+
+        h2 {
+            color: #911F27;
+            background-color: #FACE7F;
+        }
+
+        .galeria {
+            height: 100;
+            width: 150;
+        }
+
+
+
+
+        div {
+            display: inline-block;
+            padding: 10px 30px;
+        }
+
+        p,
+        li,
+        h4 {
+            color: #911F27;
+        }
+
+        a {
+            font-size: bold;
+            color: #dbab52;
+
+        }
+
+        section {
+            background-image: url();
+        }
+
+        header {
+            background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20230504%2Fourmid%2Fpngtree-orange-canned-drinks-are-suitable-for-soft-drink-products-png-image_6726266.png&f=1&nofb=1&ipt=329eaeb58866246a3dd46b12d09444f970b7dc6041059df63eb1beccd9e43eef&ipo=images);
+            background-size: 160px;
+            background-repeat: no-repeat;
+            background-position-x: 400px;
+            background-position-y: 35px;
+
+        }
+
+        .pizza {
+            text-align: center;
+            flex: 1;
+            padding: 10px;
+            outline: 1px solid #911F27;
+            border-radius: 5px;
+            transition: 0.01s ease;
+
+        }
+
+        .pizza:hover {
+            /* border-color: #e8b34f; */
+            outline: 2px solid #911F27;
+            outline-offset: -1px;
+        }
+
+        .akcia {
+            height: 100;
+            width: 150;
+            transition: 0.2s linear;
+        }
+
+
+        .pizza~.akcia {
+            transform: scale(175%);
+        }
+
+
+        .container {
+            display: contents;
+            gap: 15px;
+
+        }
+
+        .cena {
+            text-align: right;
+            margin-right: 40px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 200%;">Vyber si akú chceš pizzu</h1>
+    <h2>Ponuka</h2>
+    <p>Nasa ponuka je velka ak chces free pizzu klikni tu <a href="http://www.freefood.sk/">free pizza</a>.</p>
+    <h2 id="seciton1">Akcia</h2>
+    <div class="container">
+        <div class="pizza">
+            <p><strong>Caradinale</strong></p>
+            <img class="akcia" src="/obrazky/cardinale2.png" alt="cardinale">
+            <p class="cena"><i>6,99</i></p>
+        </div>
+        <div class="pizza">
+            <p><strong>Formagi</strong></p>
+            <img class="akcia" src="/obrazky/formagi.png" alt="formagi">
+            <p class="cena"><i>7,99</i></p>
+        </div>
+        <div class="pizza">
+            <p><strong>Hawai</strong></p>
+            <img class="akcia" src="/obrazky/hawai.png" alt="hawai" title="hawai">
+            <p class="cena"><i>7,99</i></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pizza">
+            <p><strong>Funghi</strong></p>
+            <img class="akcia" src="/obrazky/pizza-funghi.png" alt="hawai" title="hawai">
+            <p class="cena"><i>7,99</i></p>
+        </div>
+        <div class="pizza">
+            <p><strong>Prosciutto</strong></p>
+            <img class="akcia" src="/obrazky/pizza-prosciutto.png" alt="hawai" title="hawai">
+            <p class="cena"><i>7,99</i></p>
+        </div>
+        <div class="pizza">
+            <p><strong>Hawai</strong></p>
+            <img class="akcia" src="/obrazky/pizza-tonno.png" alt="hawai" title="hawai">
+            <p class="cena"><i>7,99</i></p>
+        </div>
+    </div>
+    <header>
+        <h2 id="section2">Napoje</h2>
+        <div>
+            <li><strong>Nealko napoje:</strong></li>
+            <ul>
+                <li>fanta 0.5l</li>
+                <li>kola 0.5l</li>
+                <li>sprite 0.5l</li>
+                <li>vinea 0.5l</li>
+            </ul>
+        </div>
+
+        <div>
+            <li><strong>Alko. napoje:</strong></li>
+            <ul>
+                <li>ukrainsky chmel</li>
+                <li>vodka</li>
+                <li>whisky</li>
+                <li>vino</li>
+            </ul>
+        </div>
+    </header>
+    <h2 id="section3">Kontakt</h2>
+
+
+    <p><em>
+            tel. +421 55 475 222 <img class="obrazok3"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F010%2F829%2F986%2Foriginal%2Fphone-icon-in-trendy-flat-style-free-png.png&f=1&nofb=1&ipt=6effc80e959b29447d2bfe39fc305203196dd8843b16f6a3729ef8c2176a946d&ipo=images"
+                alt="logo">
+    </p></em>
+
+    <p><i>mail: pizza@my.sk <img class="obrazok3"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F020%2F009%2F614%2Foriginal%2Femail-and-mail-icon-black-free-png.png&f=1&nofb=1&ipt=9c3755680f5a8ad9a64557f97a642db35f737998a90eaf4e77f0a0a242f092a9&ipo=images"
+                alt="miallogo">
+        </i></p>
+
+    <h2 id="section4">Foto galeria</h2>
+    <h4><u>Prevadzka bratislava</u></h4>
+    <img class="galeria" src="/obrazky/foto-01m.jpg" alt="foto 1">
+    <img class="galeria" src="/obrazky/foto-02m.jpg" alt="foto 2">
+    <img class="galeria" src="/obrazky/foto-03m.jpg" alt="foto 3">
+    <img class="galeria" src="/obrazky/foto-04m.jpg" alt="foto 4">
+    <img class="galeria" src="/obrazky/foto-05m.jpg" alt="foto 5">
+
+    <h4><u>Prevadzka v Banskej Bystrici</u></h4>
+    <img class="galeria" src="/obrazky/foto-06m.jpg" alt="foto 6">
+    <img class="galeria" src="/obrazky/foto-07m.jpg" alt="foto 7">
+    <img class="galeria" src="/obrazky/foto-08m.jpg" alt="foto 8">
+    <img class="galeria" src="/obrazky/foto-09m.jpg" alt="foto 9">
+    <img class="galeria" src="/obrazky/foto-10m.jpg" alt="foto 10">
+
+
+</body>
